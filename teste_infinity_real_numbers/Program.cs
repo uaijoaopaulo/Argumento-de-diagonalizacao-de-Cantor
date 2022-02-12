@@ -19,9 +19,7 @@ namespace teste_infinity_real_numbers
                     for (int j = 0; j < tamanho; j++)
                     {
                         numeroRealInteiro += rdn.Next(0, 10);
-                        //Console.WriteLine("* " + j);
                     }
-                    //Console.WriteLine(numeroRealInteiro);
                     listaReal.Add(numeroRealInteiro);
                 }
 
@@ -37,7 +35,6 @@ namespace teste_infinity_real_numbers
                     else
                         tempNum++;
 
-                    //Console.WriteLine(tempNum);
                     numeroCriado += tempNum.ToString();
                     index++;
                 }
@@ -50,7 +47,6 @@ namespace teste_infinity_real_numbers
                 {
                     break;
                 }
-                //Console.WriteLine(numeroCriado);
             }
             Console.ReadKey();
         }
