@@ -11,25 +11,41 @@ Se s1, s2, … , sn, … é qualquer enumeração dos elementos de T, então exi
 Para provar isso, dada uma enumeração dos elementos arbitrários de T, por exemplo:
 
 s1 =	(0,	0,	0,	0,	0,	0,	0,	...)
+
 s2 =	(1,	1,	1,	1,	1,	1,	1,	...)
+
 s3 =	(0,	1,	0,	1,	0,	1,	0,	...)
+
 s4 =	(1,	0,	1,	0,	1,	0,	1,	...)
+
 s5 =	(1,	1,	0,	1,	0,	1,	1,	...)
+
 s6 =	(0,	0,	1,	1,	0,	1,	1,	...)
+
 s7 =	(1,	0,	0,	0,	1,	0,	0,	...)
+
 ...
 
 ele constrói a sequência s escolhendo seu n-ésimo dígito como um complemento para o n-ésimo dígito de sn, para cada n. No exemplo, isso resulta em:
 
 s1	=	(0,	0,	0,	0,	0,	0,	0,	...)
+
 s2	=	(1,	1,	1,	1,	1,	1,	1,	...)
+
 s3	=	(0,	1,	0,	1,	0,	1,	0,	...)
+
 s4	=	(1,	0,	1,	0,	1,	0,	1,	...)
+
 s5	=	(1,	1,	0,	1,	0,	1,	1,	...)
+
 s6	=	(0,	0,	1,	1,	0,	1,	1,	...)
+
 s7	=	(1,	0,	0,	0,	1,	0,	0,	...)
+
 ...
+
 s	=	(1,	0,	1,	1,	1,	0,	1,	...)
+
 
 Por construção, s difere de cada sn, uma vez que seus n-ésimos dígitos diferem (destacado no exemplo). Portanto, não é possível s ocorrer na enumeração.
 Com base neste teorema, Cantor, em seguida, usa um argumento indireto para mostrar que:
